@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    border: 1px solid #1B244A;
+    height: 100vh;
+
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: white;
+}
+.subBox {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    margin-top: -1rem;
+    color: white;
+    height: 80px;
+    width: 100px;
+    left: 82px;
+    top: 125px;
+}
+
+.subNum {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 4rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+}
+
+.add {
+    display: inline-block;
+    border: 1px solid #9AABD8;
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 1rem;
+    height: 25px;
+    color: #9AABD8;
+    width: 30px;
+}
+.add:hover {
+    cursor: pointer;
+}
+
+.numBox {
+    display: inline-block;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 1rem;
+    height: 25px;
+    color: #9AABD8;
+    width: 30px;
+}
+
+@media screen and (min-width:768px) and (orientation: landscape) {
+    .container h3 {
+    font-size: 2rem;
+    padding: 0;
+    margin-left: 32px;
+    }
+    .subBox {
+    margin-top: -4;
+    width: 175px;
+    height: 120px;
+    left: 82px;
+    }
+    .subNum {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 8rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+}
+    .add {
+    margin-top: 1rem;
+    width: 55px;
+    height: 45px;
+    left: 82px;
+    }
+}
